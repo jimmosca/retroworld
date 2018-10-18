@@ -1,4 +1,18 @@
 .sidebar{
   flex-direction: column;
   float: right;
+  background-color: orange;
+  width: 33%;
+  border-left: outset;
+  border-color: green;
+  border-width: thick;
+}
+.sidebar_article{
+  position: relative;
+
+}
+.sidebar_image{
+  max-width: 100%;
+  max-height: 100%;
+
 }
