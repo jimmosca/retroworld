@@ -5,9 +5,11 @@
 }
 @font-face {
 	font-family: RetroFont;
+
 	src: url(../Fuentes/retro.otf);
 }
 
 body{
 	background-color: #17351c;
+
 }
