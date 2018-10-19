@@ -1,9 +1,15 @@
+*{
+
+}
 h1, h2, p{
   color:#cbedd1;
 
 }
 
 .sidebar{
+
+  position: absolute;
+
   display:flex;
   flex-direction: column;
   float: right;
@@ -44,4 +50,13 @@ h1, h2, p{
 }
 .sidebar_text{
 text-align: center;
+}
+.CRT{
+  position: fixed;
+  width:100%;
+  height: 100%;
+  background: url("Imagenes/CRT.gif") repeat fixed;
+  opacity:0.4;
+  left:0!important;
+  top:0!important;
 }
