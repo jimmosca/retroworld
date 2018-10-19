@@ -4,9 +4,9 @@ h1, h2, p{
 }
 
 .sidebar{
+  display:flex;
   flex-direction: column;
   float: right;
-  padding-left: 20px;
   width: 33%;
   border-left: dashed;
   border-color: orange;
@@ -14,6 +14,15 @@ h1, h2, p{
 }
 .sidebar_article{
   position: relative;
+  display:flex;
+  flex-direction: column;
+}
+.sidebarblck{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
 
 }
 .sidebar_image{
@@ -21,6 +30,7 @@ h1, h2, p{
   max-height: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: orange;
 
 }
 .sidebar_title{
@@ -30,4 +40,8 @@ h1, h2, p{
 .sidebar_subtitle{
   border-bottom: dashed;
   border-color: #244A25;
+  text-align: center;
+}
+.sidebar_text{
+text-align: center;
 }
