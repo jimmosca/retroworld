@@ -7,9 +7,6 @@ h1, h2, p{
 }
 
 .sidebar{
-
-  position: absolute;
-
   display:flex;
   flex-direction: column;
   float: right;
