@@ -1,11 +1,15 @@
+h1, h2, p{
+  color:#cbedd1;
+
+}
 
 .sidebar{
   flex-direction: column;
   float: right;
-  background-color: orange;
+  padding-left: 20px;
   width: 33%;
-  border-left: outset;
-  border-color: green;
+  border-left: dashed;
+  border-color: orange;
   border-width: thick;
 }
 .sidebar_article{
@@ -15,9 +19,15 @@
 .sidebar_image{
   max-width: 100%;
   max-height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
 }
 .sidebar_title{
-text-align: center;
-font-size: 3vw;
+  text-align: center;
+  font-size: 3vw;
+}
+.sidebar_subtitle{
+  border-bottom: dashed;
+  border-color: #244A25;
 }
