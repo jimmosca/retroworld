@@ -8,10 +8,14 @@ background-color: #17351c ;
 }
 @font-face {
 	font-family: RetroFont;
-	src: url(../CSS/Fuentes/retro.otf);
+
+	src: url(../Fuentes/retro.otf);
+}
+
+body{
+	background-color: #17351c;
 }
 h1,h2,p{
-	font-family: RetroFont;
 	color: #cbedd1;
 	clear: both;
 
@@ -19,7 +23,7 @@ h1,h2,p{
 
 #primary_nav_wrap
 {
-	font-family: RetroFont;
+	
 	color: #cbedd1;
 	margin-top:15px;
 
@@ -27,7 +31,7 @@ h1,h2,p{
 
 #primary_nav_wrap li
 {
-	font-family: RetroFont;
+	
 	color: #cbedd1;
 	margin-top:15px;
 		border:  solid #cbedd1;
@@ -35,7 +39,7 @@ h1,h2,p{
 }
 #primary_nav_wrap ul
 {
-	font-family: RetroFont;
+	
 	color: #cbedd1;
 	list-style:none;
 	position:relative;
@@ -48,7 +52,7 @@ h1,h2,p{
 #primary_nav_wrap ul a
 {
 	display:block;
-	font-family: RetroFont;
+	
 	color: #cbedd1;
 	text-decoration:none;
 	font-weight:700;
