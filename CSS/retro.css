@@ -1,13 +1,169 @@
+
 *{
 	font-size: 24px;
 	font-family: RetroFont;
-	border-top: 25px;
+}
+html{
+background-color: #17351c ;
 }
 @font-face {
 	font-family: RetroFont;
-	src: url(../Fuentes/Topaznew.ttf);
+	src: url(../CSS/Fuentes/retro.otf);
+}
+h1,h2,p{
+	font-family: RetroFont;
+	color: #cbedd1;
+	clear: both;
+
 }
 
-body{
-	background-color: #006600;
+#primary_nav_wrap
+{
+	font-family: RetroFont;
+	color: #cbedd1;
+	margin-top:15px;
+
 }
+
+#primary_nav_wrap li
+{
+	font-family: RetroFont;
+	color: #cbedd1;
+	margin-top:15px;
+		border:  solid #cbedd1;
+
+}
+#primary_nav_wrap ul
+{
+	font-family: RetroFont;
+	color: #cbedd1;
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	font-family: RetroFont;
+	color: #cbedd1;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	
+}
+nav{
+	display: flex;
+	justify-content: center
+}
+#primary_nav_wrap ul li
+{
+	background-color: #17351c;
+	color:#cbedd1;
+
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+		border:  solid #cbedd1;
+}
+#primary_nav_wrap ul li a
+{
+background-color: #17351c;
+	color:#cbedd1;
+}
+#primary_nav_wrap ul ul li
+{
+		border:  solid #cbedd1;
+background-color: #17351c;
+	color:#cbedd1;
+	float:none;
+	width:200px
+}
+#primary_nav_wrap ul li a:hover
+{
+background-color: #cbedd1;
+	color:#17351c;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background-color: #cbedd1;
+	color:#17351c;
+		border:  solid #cbedd1;
+}
+#primary_nav_wrap ul li.current-menu-item a
+{
+	background-color: #cbedd1;
+	color:#17351c;
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background-color: #cbedd1;
+	color:#17351c;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background-color:#17351c ;
+	color:#cbedd1;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li a
+{
+	background-color:#17351c ;
+	color:#cbedd1;
+}
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+}
+#primary_nav_wrap ul ul a:hover
+{
+	background-color: #cbedd1;
+	color:#17351c;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:-1%;
+	left:100%
+
+}
+
+#primary_nav_wrap ul ul ul ul
+{
+	top:-10%;
+	left:100%
+
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+
+}
+/*
+#primary_nav_wrap ul li:hover *
+{
+	color:#cbedd1;
+
+}
+#primary_nav_wrap ul li:hover *:hover
+{
+	background-color: #cbedd1;
+	color:#17351c;
+}
+*/
