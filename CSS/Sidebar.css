@@ -1,0 +1,57 @@
+
+.container{
+  display: flex;
+margin-top: 50px;
+
+
+}
+.textContainer{
+  width: 66%;
+
+}
+.sidebar{
+
+  display:flex;
+  flex-direction: column;
+
+  width: 33%;
+  border-left: dashed;
+  border-color: #306E54;
+  border-width: 4px;
+  position: static;
+  z-index: 0;
+}
+.sidebar_article{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  z-index: 0;
+}
+.sidebarblck{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+}
+.sidebar_image{
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  z-index: 0;
+}
+.sidebar_title{
+  text-align: center;
+  
+}
+.sidebar_subtitle{
+  border-bottom: dashed 3px;
+  border-color: #306E54;
+
+  text-align: center;
+}
+.sidebar_text{
+text-align: center;
+}
