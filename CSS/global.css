@@ -2,16 +2,21 @@
 	font-family: RetroFont;
 	src: url(./Fuentes/retro.otf);
 }
+
 *{
 	font-family: Retrofont;
 }
-h1, h2, p, .text{
-	color: #cbedd1;
+
+*{--retroworld-background-color:#17351c;}
+*{--retroworld-text-color:#cbedd1;}
+
+h1, h2, h3, p, .text{
+	color: var(--retroworld-text-color);
 	clear: both;
 }
 
 body{
-	background: #17351c;
+	background: var(--retroworld-background-color);
 	height:100%;
 }
 
@@ -25,4 +30,21 @@ body{
 	left: 0!important;
 	top: 0!important;
 	z-index: 1000000000;
+}
+
+.tablaHW{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
+.tablaHW tr{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
+.tablaHW tr th{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
+.tablaHW tr td{
+	border: solid #cbedd1;
+	border-width: 1px;
 }
