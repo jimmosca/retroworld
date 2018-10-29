@@ -2,16 +2,21 @@
 	font-family: RetroFont;
 	src: url(./Fuentes/retro.otf);
 }
+
 *{
 	font-family: Retrofont;
 }
-h1, h2, p, .text{
-	color: #cbedd1;
+
+*{--retroworld-background-color:#17351c;}
+*{--retroworld-text-color:#cbedd1;}
+
+h1, h2, h3, p, .text{
+	color: var(--retroworld-text-color);
 	clear: both;
 }
 
 body{
-	background: #17351c;
+	background: var(--retroworld-background-color);
 	height:100%;
 }
 
