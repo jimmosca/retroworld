@@ -92,17 +92,17 @@ background-color: #17351c;
 background-color: #cbedd1;
 	color:#17351c;
 }
-
+/*
 #primary_nav_wrap ul li.current-menu-item
 {
 	background-color: #cbedd1;
 	color:#17351c;
 		border:  solid #cbedd1;
-}
-#primary_nav_wrap ul li.current-menu-item a
+}*/
+.current-menu-item > a
 {
-	background-color: #cbedd1;
-	color:#17351c;
+	background-color: #cbedd1!important;
+	color:#17351c!important;
 }
 
 #primary_nav_wrap ul li:hover

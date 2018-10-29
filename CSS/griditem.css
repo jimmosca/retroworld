@@ -33,6 +33,7 @@
 }
 
 .grid_texto {
-	height:158px;
+	margin: 0;
+	height:160px;
 	overflow-y: auto;
 }

@@ -44,14 +44,15 @@ margin-top: 50px;
 }
 .sidebar_title{
   text-align: center;
-  
+
 }
 .sidebar_subtitle{
-  border-bottom: dashed 3px;
-  border-color: #306E54;
+
 
   text-align: center;
 }
 .sidebar_text{
 text-align: center;
+border-bottom: dashed 3px;
+border-color: #306E54;
 }
