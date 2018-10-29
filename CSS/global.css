@@ -26,3 +26,20 @@ body{
 	top: 0!important;
 	z-index: 1000000000;
 }
+
+.tablaHW{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
+.tablaHW tr{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
+.tablaHW tr th{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
+.tablaHW tr td{
+	border: solid #cbedd1;
+	border-width: 1px;
+}
