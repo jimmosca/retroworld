@@ -31,6 +31,8 @@ margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-bottom: dashed 3px;
+  border-color: #306E54;
 
 
 
@@ -44,11 +46,10 @@ margin-top: 50px;
 }
 .sidebar_title{
   text-align: center;
-  
+
 }
 .sidebar_subtitle{
-  border-bottom: dashed 3px;
-  border-color: #306E54;
+
 
   text-align: center;
 }
