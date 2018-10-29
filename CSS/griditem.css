@@ -1,0 +1,38 @@
+.gridcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.griditem {
+	width:400px;
+	height:400px;
+	margin: 10px 10px 10px 10px;
+	border: 1px solid var(--retroworld-text-color);
+}
+
+.griditem .img_container {
+	width: 398px;
+	height: 198px;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid var(--retroworld-text-color);
+}
+
+.griditem .img_container img {
+	max-width:100%;
+	max-height:100%;
+	object-fit: contain;
+}
+
+.grid_titulo {
+	margin-top: 10px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.grid_texto {
+	height:158px;
+	overflow-y: auto;
+}
